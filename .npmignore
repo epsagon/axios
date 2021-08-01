@@ -6,6 +6,8 @@ node_modules/
 typings/
 sandbox/
 test/
+dist/*.map
+dist/axios.js
 bower.json
 CODE_OF_CONDUCT.md
 COLLABORATOR_GUIDE.md

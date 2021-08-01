@@ -14,6 +14,12 @@ Promise based HTTP client for the browser and node.js
 
 > New axios docs website: [click here](https://axios-http.com/)
 
+This package is based on axios original package with the following changes:
+1. The name of the package was change to "axios-minified"
+2. We removed part of the files that included when this package is installed as a dependency,
+in order to reduce package size. 
+
+
 ## Table of Contents
 
   - [Features](#features)
