@@ -65,8 +65,8 @@
     "sinon": "^4.5.0",
     "typescript": "^2.8.1",
     "url-search-params": "^0.10.0",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "webpack": "^5.51.1",
+    "webpack-dev-server": "^4.0.0"
   },
   "browser": {
     "./lib/adapters/http.js": "./lib/adapters/xhr.js"
@@ -75,7 +75,8 @@
   "unpkg": "dist/axios.min.js",
   "typings": "./index.d.ts",
   "dependencies": {
-    "follow-redirects": "^1.10.0"
+    "follow-redirects": "^1.14.0",
+    "suppress-warnings": "^1.0.2"
   },
   "bundlesize": [
     {

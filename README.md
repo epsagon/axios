@@ -10,6 +10,17 @@
 [![code helpers](https://www.codetriage.com/axios/axios/badges/users.svg)](https://www.codetriage.com/axios/axios)
 
 Promise based HTTP client for the browser and node.js
+
+> New axios docs website: [click here](https://axios-http.com/)
+
+This package is based on axios original package with the following changes:
+1. The name of the package was change to "axios-minified"
+2. We removed part of the files that included when this package is installed as a dependency,
+in order to reduce package size. 
+
+This package is based on axios commit: e9965bfafc82d8b42765705061b9ebe2d5532493
+
+
 ## Table of Contents
 
   - [Features](#features)
