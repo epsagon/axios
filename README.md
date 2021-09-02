@@ -18,7 +18,7 @@ This package is based on axios original package with the following changes:
 2. We removed part of the files that included when this package is installed as a dependency,
 in order to reduce package size. 
 
-This package is based on axios commit: e9965bfafc82d8b42765705061b9ebe2d5532493
+This package is based on axios tag v0.21.1
 
 
 ## Table of Contents
@@ -77,31 +77,19 @@ Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | Latest ✔ | 11 ✔ |
 Using npm:
 
 ```bash
-$ npm install axios
+$ npm install axios-minified
 ```
 
 Using bower:
 
 ```bash
-$ bower install axios
+$ bower install axios-minified
 ```
 
 Using yarn:
 
 ```bash
-$ yarn add axios
-```
-
-Using jsDelivr CDN:
-
-```html
-<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-```
-
-Using unpkg CDN:
-
-```html
-<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+$ yarn add axios-minified
 ```
 
 ## Example
