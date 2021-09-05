@@ -1,6 +1,6 @@
 {
   "name": "axios-minified",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Promise based HTTP client for the browser and node.js - only minified files",
   "main": "index.js",
   "scripts": {
