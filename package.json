@@ -1,6 +1,6 @@
 {
   "name": "axios-minified",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Promise based HTTP client for the browser and node.js - only minified files",
   "main": "index.js",
   "scripts": {
@@ -60,8 +60,8 @@
     "sinon": "^4.5.0",
     "typescript": "^2.8.1",
     "url-search-params": "^0.10.0",
-    "webpack": "^5.51.1",
-    "webpack-dev-server": "^4.0.0"
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
   },
   "browser": {
     "./lib/adapters/http.js": "./lib/adapters/xhr.js"
@@ -70,8 +70,7 @@
   "unpkg": "dist/axios.min.js",
   "typings": "./index.d.ts",
   "dependencies": {
-    "follow-redirects": "^1.14.0",
-    "suppress-warnings": "^1.0.2"
+    "follow-redirects": "^1.10.0"
   },
   "bundlesize": [
     {
